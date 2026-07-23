@@ -192,14 +192,14 @@ else if (bowscene == false) {
 		hsp = -5.5;
 	}
 	else if (act2 == true) {
-		//DO A DIALOGE
+		//DO A DIALOGE, then act2 is false, act3 is true
 	}
 	else if (act3 == true) {
 		if (x < 381) { act1 = false; act4 = true; }
 		hsp = -3;
 	}
 	else if (act4 == true) {
-		//DO A DIALOGE
+		//DO A DIALOGE, then act 4 is fals, act 5 is true;
 	}
 	else if (act5 == true) {
 		Ofade.leaving = true;
