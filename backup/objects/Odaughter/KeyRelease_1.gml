@@ -19,7 +19,7 @@ if canTalk == false and tBoi != undefined {
 	
 	if lineCur == 3 {
 		tBoi.std = ""
-		tBoi.stdG = "It is my time to run off to the roses daddy boy"
+		tBoi.stdG = "Well, I think I like destinatio- ...!"
 		lineCur += 2
 	}
 	
@@ -30,7 +30,7 @@ if canTalk == false and tBoi != undefined {
 	
 	if lineCur == 1 {
 		tBoi.std = ""
-		tBoi.stdG = "Flippin heck"
+		tBoi.stdG = "Just on a walk, little one. The destination isn't always the point of the journey, you know."
 		lineCur += 1
 	}
 	
