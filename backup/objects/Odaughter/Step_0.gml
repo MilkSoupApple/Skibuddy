@@ -1,5 +1,5 @@
 if (runaway1 == true) hsp = -5.5;
-if (place_meeting(x,y,OnextLevel)) { runaway1 = false; global.daughterspoke = true; instance_destroy(); }
+if (place_meeting(x,y,OnextLevel)) { runaway1 = false; global.daughterspoke = true; instance_destroy(); instance_create_layer(0,0,"Instances",Oaswd) }
 
 if (walk1 == true) hsp = -3;
 if (x < room_width*0.55) and canTalk == true {

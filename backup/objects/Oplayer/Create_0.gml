@@ -10,17 +10,8 @@ if (room == Forest2) and (global.bowscene == false) bowscene = false;
 else bowscene = true;
 
 if (room == FlowerRealm1) and (global.wheressally == false) {
-		canTalk = false
-		dial = 2;
 		global.wheressally = true;
-		lineCur = 0
-		with instance_create_layer(-9999,-9999,"Instances",OTextBox) {
-			std = ""
-			stdG = "...Where am I? I have to find Sally..."
-			other.tBoi = self
-			char1Sp = Splayer
-			char1Fr = 0
-		}
+		alarm[11] = fps*1
 }
 
 act1 = true;
