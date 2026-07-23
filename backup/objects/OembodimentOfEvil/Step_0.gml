@@ -1,0 +1,41 @@
+
+if (canTalk == true) {
+	hsp = 0;
+	canTalk =  false
+	with instance_create_layer(-9999,-9999,"Instances",OTextBox) {
+		std = ""
+		stdG = "GREETINGS, PARTICIPANT! DO YOU KNOW WHERE YOU ARE RIGHT NOW?"
+		other.tBoi = self
+		char1Sp = Sdaughter
+		char1Fr = 0
+	}
+	
+}
+
+	var is_moving = (abs(hsp) > 0.1 || abs(vsp) > 0.1);
+
+// Walking animation
+
+var walk_angle;
+
+if (is_moving) {
+    walk_time += 0.4;
+
+    // Body bob
+    image_yscale = 1 + sin(walk_time * 2) * 0.05;
+
+    // Walking tilt
+    walk_angle = sin(walk_time) * 7;
+}
+else {
+    image_yscale = lerp(image_yscale, 1, 0.2);
+
+    walk_angle = 0;
+	
+}
+
+    // Normal walking rotation
+    image_angle = walk_angle;
+
+x += hsp;
+y += vsp;
