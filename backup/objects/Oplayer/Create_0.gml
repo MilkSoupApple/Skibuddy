@@ -3,6 +3,7 @@ image_yscale = 1;
 sprite_index = Splayer;
 image_index = 0;
 image_speed = 0;
+walk1 = false;
 
 
 hsp = 0;
