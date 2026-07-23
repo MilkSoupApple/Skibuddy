@@ -3,17 +3,17 @@ pCamW = camera_get_view_width(roomCam)
 pCamH = camera_get_view_height(roomCam)
 
 imagScalx = (pCamW*0.8)/sprite_width
-imagScaly = (pCamH*0.2)/sprite_height
+imagScaly = (pCamH*0.3)/sprite_height
 
 image_xscale = imagScalx
 image_yscale = imagScaly
 
 std = ""
-stdG = "gurt gurt giioahsdindkifuhdsfpjofjii jdfsihf iauhfiuhiwd iuhdsfisad9fiujs"
-char1Sp = Splayer
+stdG = ""
+char1Sp = undefined
 char1Fr = 0
 char1Al = 1
-char2Sp = Splayer
-char2Fr = 4
-char2Al = 0.5
+char2Sp = undefined
+char2Fr = 0
+char2Al = 1
 depth = -99999999

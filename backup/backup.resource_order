@@ -10,6 +10,7 @@
     {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
     {"name":"Attacks","order":2,"path":"folders/Sprites/Attacks.yy",},
     {"name":"Environment","order":4,"path":"folders/Sprites/Environment.yy",},
+    {"name":"Gui","order":5,"path":"folders/Sprites/Gui.yy",},
     {"name":"PlayerStuff","order":3,"path":"folders/Sprites/PlayerStuff.yy",},
     {"name":"TestStuff","order":1,"path":"folders/Sprites/TestStuff.yy",},
     {"name":"Tilesets","order":5,"path":"folders/Tilesets.yy",},
