@@ -7,6 +7,7 @@ if canTalk == false and tBoi != undefined and dial == 1 {
 		act2 = false
 		act3 = true
 		instance_destroy(tBoi)
+		canTalk = true
 		tBoi = undefined
 		lineCur += 1
 	}

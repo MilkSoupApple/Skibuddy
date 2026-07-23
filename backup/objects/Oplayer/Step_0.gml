@@ -206,15 +206,15 @@ else if (bowscene == false) {
 	}
 		//DO A DIALOGE, then act2 is false, act3 is true
 	}
-	show_debug_message(act3)
 	else if (act3 == true) {
-		if (x < 381) { act1 = false; act4 = true; }
+		if (x < 381) { act3 = false; act4 = true; }
 		hsp = -3;
 	}
 	else if (act4 == true) and canTalk == true {
 		hsp = 0
 		canTalk = false
 		dial = 2
+		lineCur = 0
 		with instance_create_layer(-9999,-9999,"Instances",OTextBox) {
 			std = ""
 			stdG = "onwiuefniu"
