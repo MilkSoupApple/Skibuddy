@@ -6,7 +6,7 @@ if (x < room_width*0.55) and canTalk == true {
 		canTalk =  false
 	with instance_create_layer(-9999,-9999,"Instances",OTextBox) {
 		std = ""
-		stdG = "skibuddy goon"
+		stdG = "Daddy, where are we going?"
 		other.tBoi = self
 		char1Sp = Sdaughter
 		char1Fr = 0
