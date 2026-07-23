@@ -4,7 +4,6 @@ if canTalk == false and tBoi != undefined and dial == 1 {
 	
 	if lineCur == 1 {
 		
-		runaway1 = true;
 		act2 = false
 		act3 = true
 		instance_destroy(tBoi)
@@ -27,8 +26,8 @@ if canTalk == false and tBoi != undefined and dial == 2 {
 	
 	if lineCur == 0 {
 		
-		runaway1 = true;
-		
+		act4 = false
+		act5 = true
 		instance_destroy(tBoi)
 		tBoi = undefined
 		lineCur += 1
