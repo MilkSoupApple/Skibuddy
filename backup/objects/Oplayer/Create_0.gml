@@ -6,6 +6,14 @@ image_speed = 0;
 walk1 = false;
 run1 = false;
 
+if (room == Forest2) and (global.bowscene == false) bowscene = false;
+else bowscene = true;
+
+act1 = true;
+act2 = false;
+act3 = false;
+act4 = false;
+act5 = false;
 
 hsp = 0;
 vsp = 0;

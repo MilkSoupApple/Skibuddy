@@ -1,7 +1,7 @@
 if (instance_exists(Odaughter)) { walk1 = Odaughter.walk1; run1 = Odaughter.runaway1 }
 else { walk1 = false; run1 = false; }
 
-if (Ofade.leaving == false) and (Ofade.entering == false) and (walk1 == false) and (run1 == false) and (not instance_exists(OTextBox)) {
+if (Ofade.leaving == false) and (Ofade.entering == false) and (walk1 == false) and (run1 == false) and (not instance_exists(OTextBox)) and (bowscene == true) {
 // Movement
 var moveV = 0;
 var moveH = 0;
@@ -158,6 +158,57 @@ hitswas = hits;
 else if (walk1 == true) {
 	hsp = -3;
 	var is_moving = (abs(hsp) > 0.1 || abs(vsp) > 0.1);
+
+// Walking animation
+
+var walk_angle;
+
+if (is_moving) {
+    walk_time += 0.3;
+
+    // Body bob
+    image_yscalee = 1 + sin(walk_time * 2) * 0.05;
+
+    // Walking tilt
+    walk_angle = sin(walk_time) * 7;
+}
+else {
+    image_yscalee = lerp(image_yscalee, 1, 0.2);
+
+    walk_angle = 0;
+	
+}
+
+    // Normal walking rotation
+    image_anglee = walk_angle;
+
+x += hsp;
+}
+else if (bowscene == false) {
+	global.bowscene = true;
+	
+	if (act1 == true) {
+		if (x < 763) { act1 = false; act2 = true; }
+		hsp = -5.5;
+	}
+	else if (act2 == true) {
+		//DO A DIALOGE, then act2 is false, act3 is true
+	}
+	else if (act3 == true) {
+		if (x < 381) { act1 = false; act4 = true; }
+		hsp = -3;
+	}
+	else if (act4 == true) {
+		//DO A DIALOGE, then act 4 is fals, act 5 is true;
+	}
+	else if (act5 == true) {
+		Ofade.leaving = true;
+		global.target = FlowerRealm1;
+		global.targetx = 384;
+		global.targety = 448;
+	}
+	
+		var is_moving = (abs(hsp) > 0.1 || abs(vsp) > 0.1);
 
 // Walking animation
 
