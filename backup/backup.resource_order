@@ -22,6 +22,7 @@
     {"name":"SforestBG","order":2,"path":"sprites/SforestBG/SforestBG.yy",},
     {"name":"ShitBox","order":1,"path":"sprites/ShitBox/ShitBox.yy",},
     {"name":"SrandomTileSet","order":1,"path":"sprites/SrandomTileSet/SrandomTileSet.yy",},
+    {"name":"SrosePatch","order":3,"path":"sprites/SrosePatch/SrosePatch.yy",},
     {"name":"StestBG","order":1,"path":"sprites/StestBG/StestBG.yy",},
     {"name":"Swall","order":2,"path":"sprites/Swall/Swall.yy",},
     {"name":"TtilesRandom","order":1,"path":"tilesets/TtilesRandom/TtilesRandom.yy",},
