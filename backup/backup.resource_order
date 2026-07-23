@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
+    {"name":"Fonts","order":10,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
-    {"name":"GUIStuff","order":2,"path":"folders/Objects/GUIStuff.yy",},
-    {"name":"PlayerStuff","order":1,"path":"folders/Objects/PlayerStuff.yy",},
+    {"name":"GUIStuff","order":1,"path":"folders/Objects/GUIStuff.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Shaders","order":7,"path":"folders/Shaders.yy",},
@@ -19,7 +19,7 @@
     {"name":"OnextLevel","order":2,"path":"objects/OnextLevel/OnextLevel.yy",},
     {"name":"OplayerTrail","order":3,"path":"objects/OplayerTrail/OplayerTrail.yy",},
     {"name":"OplayerVisible","order":2,"path":"objects/OplayerVisible/OplayerVisible.yy",},
-    {"name":"OTextBox","order":8,"path":"objects/OTextBox/OTextBox.yy",},
+    {"name":"OTextBox","order":3,"path":"objects/OTextBox/OTextBox.yy",},
     {"name":"Owall","order":1,"path":"objects/Owall/Owall.yy",},
     {"name":"Forest2","order":1,"path":"rooms/Forest2/Forest2.yy",},
     {"name":"SforestBG","order":2,"path":"sprites/SforestBG/SforestBG.yy",},

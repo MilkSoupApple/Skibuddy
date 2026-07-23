@@ -3,13 +3,15 @@
   "%Name":"OTextBox",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"OTextBox",
   "overriddenProperties":[],
   "parent":{
-    "name":"backup",
-    "path":"backup.yyp",
+    "name":"GUIStuff",
+    "path":"folders/Objects/GUIStuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,
