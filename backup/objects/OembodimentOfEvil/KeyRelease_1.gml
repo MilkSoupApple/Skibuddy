@@ -2,12 +2,84 @@ if canTalk == false and tBoi != undefined {
 	
 	if tBoi.std == tBoi.stdG {
 	
-	if lineCur == 2 {
+	if lineCur == 11 {
 		
 		runaway1 = true;
 		
 		instance_destroy(tBoi)
 		tBoi = undefined
+		lineCur += 1
+	}
+	
+	if lineCur == 10 {
+		tBoi.std = ""
+		tBoi.char1Al = 1
+		tBoi.char2Al = 0.6
+		tBoi.stdG = "feet"
+		lineCur += 1
+	}
+	
+	if lineCur == 9 {
+		tBoi.std = ""
+		tBoi.char1Al = 1
+		tBoi.char2Al = 0.6
+		tBoi.stdG = "feet"
+		lineCur += 1
+	}
+	
+	if lineCur == 8 {
+		tBoi.std = ""
+		tBoi.char1Al = 1
+		tBoi.char2Al = 0.6
+		tBoi.stdG = "feet"
+		lineCur += 1
+	}
+	
+	if lineCur == 7 {
+		tBoi.std = ""
+		tBoi.char1Al = 1
+		tBoi.char2Al = 0.6
+		tBoi.stdG = "feet"
+		lineCur += 1
+	}
+	
+	if lineCur == 6 {
+		tBoi.std = ""
+		tBoi.char1Al = 1
+		tBoi.char2Al = 0.6
+		tBoi.stdG = "feet"
+		lineCur += 1
+	}
+	
+	if lineCur == 5 {
+		tBoi.std = ""
+		tBoi.char1Al = 1
+		tBoi.char2Al = 0.6
+		tBoi.stdG = "feet"
+		lineCur += 1
+	}
+	
+	if lineCur == 4 {
+		tBoi.std = ""
+		tBoi.char1Al = 1
+		tBoi.char2Al = 0.6
+		tBoi.stdG = "feet"
+		lineCur += 1
+	}
+	
+	if lineCur == 3 {
+		tBoi.std = ""
+		tBoi.char1Al = 1
+		tBoi.char2Al = 0.6
+		tBoi.stdG = "feet"
+		lineCur += 1
+	}
+	
+	if lineCur == 2 {
+		tBoi.std = ""
+		tBoi.char1Al = 1
+		tBoi.char2Al = 0.6
+		tBoi.stdG = "feet"
 		lineCur += 1
 	}
 	

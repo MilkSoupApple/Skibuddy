@@ -54,7 +54,7 @@ if proGussy == true {
 	wit = string_width(stringger)
 	hit = string_height(stringger)
 	xOy = (pCamX+(pCamW*0.865))-wit
-	yOy = (pCamY+(pCamH*0.91))-hit
+	yOy = (pCamY+(pCamH*0.89))-hit
 	draw_text(xOy,yOy,stringger)
 	
 	
