@@ -212,7 +212,6 @@ else if (bowscene == false) {
 		hsp = -3;
 	}
 	else if (act4 == true) and canTalk == true {
-		
 		hsp = 0
 		canTalk = false
 		dial = 2
