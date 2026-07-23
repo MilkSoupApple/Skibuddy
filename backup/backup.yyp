@@ -46,10 +46,12 @@
     {"id":{"name":"OplayerVisible","path":"objects/OplayerVisible/OplayerVisible.yy",},},
     {"id":{"name":"OTextBox","path":"objects/OTextBox/OTextBox.yy",},},
     {"id":{"name":"Owall","path":"objects/Owall/Owall.yy",},},
+    {"id":{"name":"FlowerRealm1","path":"rooms/FlowerRealm1/FlowerRealm1.yy",},},
     {"id":{"name":"Forest1","path":"rooms/Forest1/Forest1.yy",},},
     {"id":{"name":"Forest2","path":"rooms/Forest2/Forest2.yy",},},
     {"id":{"name":"scr_screenshake","path":"scripts/scr_screenshake/scr_screenshake.yy",},},
     {"id":{"name":"Sdaughter","path":"sprites/Sdaughter/Sdaughter.yy",},},
+    {"id":{"name":"SflowerBG","path":"sprites/SflowerBG/SflowerBG.yy",},},
     {"id":{"name":"SforestBG","path":"sprites/SforestBG/SforestBG.yy",},},
     {"id":{"name":"ShitBox","path":"sprites/ShitBox/ShitBox.yy",},},
     {"id":{"name":"SnextLevel","path":"sprites/SnextLevel/SnextLevel.yy",},},
@@ -71,6 +73,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Forest1","path":"rooms/Forest1/Forest1.yy",},},
     {"roomId":{"name":"Forest2","path":"rooms/Forest2/Forest2.yy",},},
+    {"roomId":{"name":"FlowerRealm1","path":"rooms/FlowerRealm1/FlowerRealm1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
