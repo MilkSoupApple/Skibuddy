@@ -17,6 +17,7 @@
   "ResourceOrderSettings":[
     {"name":"Oattacks","order":1,"path":"objects/Oattacks/Oattacks.yy",},
     {"name":"OnextLevel","order":2,"path":"objects/OnextLevel/OnextLevel.yy",},
+    {"name":"OplayerTrail","order":3,"path":"objects/OplayerTrail/OplayerTrail.yy",},
     {"name":"OplayerVisible","order":2,"path":"objects/OplayerVisible/OplayerVisible.yy",},
     {"name":"OTextBox","order":3,"path":"objects/OTextBox/OTextBox.yy",},
     {"name":"Owall","order":1,"path":"objects/Owall/Owall.yy",},

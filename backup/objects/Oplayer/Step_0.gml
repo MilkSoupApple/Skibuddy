@@ -86,6 +86,8 @@ else {
 if (mouse_check_button_pressed(mb_left)) && (atkcooldown < 1) {
     scr_screenshake(5);
     atkcooldown = 15;
+	hits += 1;
+	hitsT = 60;
 	attack_wobble_timer = attack_wobble_duration;
 
     lunge_dir = point_direction(x, y, mouse_x, mouse_y);
@@ -117,10 +119,17 @@ with (instance_create_layer(attack_x, attack_y, "Instances", Oattacks)) {
     }
 }
 
-if (lunge_timer > 0) {
+if (lunge_timer > 0) and (hits != 3) {
    if (!place_meeting(x+lengthdir_x(lunge_speed, lunge_dir),y,Owall)) x += lengthdir_x(lunge_speed, lunge_dir);
    if (!place_meeting(x,y+lengthdir_y(lunge_speed, lunge_dir),Owall)) y += lengthdir_y(lunge_speed, lunge_dir);
 
+    lunge_timer--;
+}
+else if (lunge_timer > 0) {
+   if (!place_meeting(x+lengthdir_x(lunge_speed*7, lunge_dir),y,Owall)) x += lengthdir_x(lunge_speed*7, lunge_dir);
+   if (!place_meeting(x,y+lengthdir_y(lunge_speed*7, lunge_dir),Owall)) y += lengthdir_y(lunge_speed*7, lunge_dir);
+	hits = 0;
+	instance_create_depth(x,y,depth,OplayerTrail);
     lunge_timer--;
 }
 
@@ -134,3 +143,9 @@ if (!place_meeting(x,y+vsp,Owall)) y += vsp;
 
 atkcooldown -= 1;
 
+if (hits == hitswas) {
+	hitsT -= 1;
+	if (hitsT < 1) hits = 0;
+}
+
+hitswas = hits;
