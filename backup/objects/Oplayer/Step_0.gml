@@ -94,19 +94,19 @@ if (mouse_check_button_pressed(mb_left)) && (atkcooldown < 1) {
 
     with (instance_create_layer(x, y, "Instances", Oattacks)) {
         sprite_index = Sslash;
-        image_xscale = 1;
-        image_yscale = 1;
+        image_xscale = 2;
+        image_yscale = 2;
 
         direction = point_direction(x, y, mouse_x, mouse_y);
         image_angle = direction;
         image_speed = 1;
 
         if (other.slashedup == true) {
-            image_yscale = 1;
+            image_yscale = 2;
             other.slashedup = false;
         }
         else {
-            image_yscale = -1;
+            image_yscale = -2;
             other.slashedup = true;
         }
     }
