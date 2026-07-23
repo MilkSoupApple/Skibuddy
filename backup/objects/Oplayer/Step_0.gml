@@ -1,7 +1,7 @@
 if (instance_exists(Odaughter)) { walk1 = Odaughter.walk1; run1 = Odaughter.runaway1 }
 else { walk1 = false; run1 = false; }
 
-if (Ofade.leaving == false) and (Ofade.entering == false) and (walk1 == false) and (run1 == false) {
+if (Ofade.leaving == false) and (Ofade.entering == false) and (walk1 == false) and (run1 == false) and (not instance_exists(OTextBox)) {
 // Movement
 var moveV = 0;
 var moveH = 0;
