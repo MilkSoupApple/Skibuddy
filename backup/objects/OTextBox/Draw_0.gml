@@ -40,7 +40,22 @@ yPosy = pCamY+(pCamH*0.7)
 draw_set_font(drawfnt)
 draw_set_colour(c_black)
 
-SHeight = string_height(std)*1.1
+SHeight = font_get_size(drawfnt)*1.1
 
 
 draw_text_ext(xPosy,yPosy,std,SHeight,widthNum)
+
+
+//cont
+if proGussy == true {
+	draw_set_font(FTBoxSm)
+	stringger = "Hit any key to continue"
+	
+	wit = string_width(stringger)
+	hit = string_height(stringger)
+	xOy = (pCamX+(pCamW*0.865))-wit
+	yOy = (pCamY+(pCamH*0.91))-hit
+	draw_text(xOy,yOy,stringger)
+	
+	
+}

@@ -16,6 +16,7 @@
     {"name":"Tilesets","order":5,"path":"folders/Tilesets.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"FTBoxSm","order":1,"path":"fonts/FTBoxSm/FTBoxSm.yy",},
     {"name":"Oattacks","order":1,"path":"objects/Oattacks/Oattacks.yy",},
     {"name":"Odaughter","order":4,"path":"objects/Odaughter/Odaughter.yy",},
     {"name":"Ofade","order":4,"path":"objects/Ofade/Ofade.yy",},
