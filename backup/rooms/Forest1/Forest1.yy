@@ -19,6 +19,7 @@
     {"name":"inst_7DD2C3D5","path":"rooms/Forest1/Forest1.yy",},
     {"name":"inst_5A1E3777","path":"rooms/Forest1/Forest1.yy",},
     {"name":"inst_59BA4AFF","path":"rooms/Forest1/Forest1.yy",},
+    {"name":"inst_16C0F161","path":"rooms/Forest1/Forest1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -36,6 +37,7 @@
         {"$GMRInstance":"v4","%Name":"inst_7BD82AC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7BD82AC","objectId":{"name":"Owall","path":"objects/Owall/Owall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.6666667,"scaleY":3.0,"x":1568.0,"y":288.0,},
         {"$GMRInstance":"v4","%Name":"inst_7DD2C3D5","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7DD2C3D5","objectId":{"name":"OnextLevel","path":"objects/OnextLevel/OnextLevel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":4.5,"x":1536.0,"y":288.0,},
         {"$GMRInstance":"v4","%Name":"inst_5A1E3777","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A1E3777","objectId":{"name":"OnextLevel","path":"objects/OnextLevel/OnextLevel.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":4.5,"x":0.0,"y":288.0,},
+        {"$GMRInstance":"v4","%Name":"inst_16C0F161","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_16C0F161","objectId":{"name":"OTextBox","path":"objects/OTextBox/OTextBox.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":640.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"TilesRandom","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"TilesRandom","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":9,"SerialiseWidth":17,"TileCompressedData":[
           1,1,-15,2,2,3,6,-15,-2147483648,2,8,13,-15,-2147483648,2,11,0,-15,-2147483648,-2,0,-15,-2147483648,-2,
