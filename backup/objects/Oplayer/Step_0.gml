@@ -92,7 +92,7 @@ if (mouse_check_button_pressed(mb_left)) && (atkcooldown < 1) {
     
     lunge_timer = lunge_duration;
 
-    with (instance_create_layer(x, y, "Instances", Oattacks)) {
+    with (instance_create_layer(x, y+25, "Instances", Oattacks)) {
         sprite_index = Sslash;
         image_xscale = 2;
         image_yscale = 2;
