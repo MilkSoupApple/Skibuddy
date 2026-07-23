@@ -36,6 +36,7 @@
   "name":"backup",
   "resources":[
     {"id":{"name":"FTBox","path":"fonts/FTBox/FTBox.yy",},},
+    {"id":{"name":"FTBoxSm","path":"fonts/FTBoxSm/FTBoxSm.yy",},},
     {"id":{"name":"Oattacks","path":"objects/Oattacks/Oattacks.yy",},},
     {"id":{"name":"Ocamera","path":"objects/Ocamera/Ocamera.yy",},},
     {"id":{"name":"Odaughter","path":"objects/Odaughter/Odaughter.yy",},},
