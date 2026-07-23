@@ -191,14 +191,38 @@ else if (bowscene == false) {
 		if (x < 763) { act1 = false; act2 = true; }
 		hsp = -5.5;
 	}
-	else if (act2 == true) {
+	else if (act2 == true) and canTalk == true {
+		
+		hsp = 0
+		
+	canTalk =  false
+	dial = 1
+	with instance_create_layer(-9999,-9999,"Instances",OTextBox) {
+		std = ""
+		stdG = "son"
+		other.tBoi = self
+		char1Sp = Splayer
+		char1Fr = 0
+	}
 		//DO A DIALOGE, then act2 is false, act3 is true
 	}
 	else if (act3 == true) {
 		if (x < 381) { act1 = false; act4 = true; }
 		hsp = -3;
 	}
-	else if (act4 == true) {
+	else if (act4 == true) and canTalk == true {
+		
+		hsp = 0
+		canTalk = false
+		dial = 2
+		with instance_create_layer(-9999,-9999,"Instances",OTextBox) {
+			std = ""
+			stdG = "onwiuefniu"
+			other.tBoi = self
+			char1Sp = Splayer
+			char1Fr = 0
+		}
+		
 		//DO A DIALOGE, then act 4 is fals, act 5 is true;
 	}
 	else if (act5 == true) {

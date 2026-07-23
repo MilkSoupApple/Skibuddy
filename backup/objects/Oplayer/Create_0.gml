@@ -48,3 +48,9 @@ walk_rotate_amount = 5;
 attack_wobble_timer = 0;
 attack_wobble_duration = 12;
 attack_wobble_amount = 20;
+
+
+canTalk = true
+lineCur = 0
+tBoi = undefined
+dial = 1
