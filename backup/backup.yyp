@@ -37,6 +37,7 @@
     {"id":{"name":"FTBox","path":"fonts/FTBox/FTBox.yy",},},
     {"id":{"name":"Oattacks","path":"objects/Oattacks/Oattacks.yy",},},
     {"id":{"name":"Ocamera","path":"objects/Ocamera/Ocamera.yy",},},
+    {"id":{"name":"Ofade","path":"objects/Ofade/Ofade.yy",},},
     {"id":{"name":"OnextLevel","path":"objects/OnextLevel/OnextLevel.yy",},},
     {"id":{"name":"Oplayer","path":"objects/Oplayer/Oplayer.yy",},},
     {"id":{"name":"OplayerTrail","path":"objects/OplayerTrail/OplayerTrail.yy",},},
