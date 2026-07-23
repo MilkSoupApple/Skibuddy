@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SWhiteBox",
-    "path":"sprites/SWhiteBox/SWhiteBox.yy",
+    "name":"STextBox",
+    "path":"sprites/STextBox/STextBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,
