@@ -1,3 +1,4 @@
+if (Ofade.leaving == false) and (Ofade.entering == false) {
 // Movement
 var moveV = 0;
 var moveH = 0;
@@ -17,7 +18,7 @@ if (slowit == true) {
 
 var acceleration = 0.5;
 var frition = 0.75;
-var max_speed = 4.15;
+var max_speed = 5.5;
 if (slowit == true) max_speed *= 0.707;
 
 hsp += moveH * acceleration;
@@ -149,3 +150,5 @@ if (hits == hitswas) {
 }
 
 hitswas = hits;
+
+}
