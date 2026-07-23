@@ -5,4 +5,3 @@ vsp = 0;
 canTalk = true
 lineCur = 0
 tBoi = undefined
-curText = ""

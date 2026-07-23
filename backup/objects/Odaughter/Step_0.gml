@@ -6,23 +6,11 @@ if (x < room_width*0.55) and canTalk == true {
 	canTalk =  false
 	with instance_create_layer(-9999,-9999,"Instances",OTextBox) {
 		std = ""
-		stdG = "Goooon goooon"
+		stdG = "skibuddy goon"
+		other.tBoi = self
 	}
 	
 }
 
 x += hsp;
 y += vsp;
-
-
-
-
-
-
-
-
-
-
-if tBoi != undefined {
-	tBoi.stdG = curText
-}

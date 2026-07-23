@@ -16,4 +16,5 @@ char1Al = 1
 char2Sp = undefined
 char2Fr = 0
 char2Al = 1
+proGussy = false
 depth = -99999999
