@@ -35,6 +35,7 @@
   "resources":[
     {"id":{"name":"Oattacks","path":"objects/Oattacks/Oattacks.yy",},},
     {"id":{"name":"Ocamera","path":"objects/Ocamera/Ocamera.yy",},},
+    {"id":{"name":"OnextLevel","path":"objects/OnextLevel/OnextLevel.yy",},},
     {"id":{"name":"Oplayer","path":"objects/Oplayer/Oplayer.yy",},},
     {"id":{"name":"OplayerVisible","path":"objects/OplayerVisible/OplayerVisible.yy",},},
     {"id":{"name":"Owall","path":"objects/Owall/Owall.yy",},},
@@ -43,6 +44,7 @@
     {"id":{"name":"scr_screenshake","path":"scripts/scr_screenshake/scr_screenshake.yy",},},
     {"id":{"name":"SforestBG","path":"sprites/SforestBG/SforestBG.yy",},},
     {"id":{"name":"ShitBox","path":"sprites/ShitBox/ShitBox.yy",},},
+    {"id":{"name":"SnextLevel","path":"sprites/SnextLevel/SnextLevel.yy",},},
     {"id":{"name":"Splayer","path":"sprites/Splayer/Splayer.yy",},},
     {"id":{"name":"SrandomTileSet","path":"sprites/SrandomTileSet/SrandomTileSet.yy",},},
     {"id":{"name":"SrosePatch","path":"sprites/SrosePatch/SrosePatch.yy",},},
