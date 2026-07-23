@@ -36,5 +36,5 @@
     "path":"sprites/SnextLevel/SnextLevel.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
