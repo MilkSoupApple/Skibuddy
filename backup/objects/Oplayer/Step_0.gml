@@ -1,4 +1,4 @@
-if (Ofade.leaving == false) and (Ofade.entering == false) {
+if (Ofade.leaving == false) and (Ofade.entering == false) and (Odaughter.walk1 == false) {
 // Movement
 var moveV = 0;
 var moveH = 0;
@@ -151,4 +151,7 @@ if (hits == hitswas) {
 
 hitswas = hits;
 
+}
+else if (Odaughter.walk1 == true) {
+	x -= 3;
 }

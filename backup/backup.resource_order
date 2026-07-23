@@ -16,6 +16,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"Oattacks","order":1,"path":"objects/Oattacks/Oattacks.yy",},
+    {"name":"Odaughter","order":4,"path":"objects/Odaughter/Odaughter.yy",},
     {"name":"Ofade","order":4,"path":"objects/Ofade/Ofade.yy",},
     {"name":"OnextLevel","order":2,"path":"objects/OnextLevel/OnextLevel.yy",},
     {"name":"OplayerTrail","order":3,"path":"objects/OplayerTrail/OplayerTrail.yy",},
@@ -23,6 +24,7 @@
     {"name":"OTextBox","order":3,"path":"objects/OTextBox/OTextBox.yy",},
     {"name":"Owall","order":1,"path":"objects/Owall/Owall.yy",},
     {"name":"Forest2","order":1,"path":"rooms/Forest2/Forest2.yy",},
+    {"name":"Sdaughter","order":2,"path":"sprites/Sdaughter/Sdaughter.yy",},
     {"name":"SforestBG","order":2,"path":"sprites/SforestBG/SforestBG.yy",},
     {"name":"ShitBox","order":1,"path":"sprites/ShitBox/ShitBox.yy",},
     {"name":"SnextLevel","order":3,"path":"sprites/SnextLevel/SnextLevel.yy",},
