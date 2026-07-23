@@ -18,6 +18,7 @@
     {"name":"Oattacks","order":1,"path":"objects/Oattacks/Oattacks.yy",},
     {"name":"OnextLevel","order":2,"path":"objects/OnextLevel/OnextLevel.yy",},
     {"name":"OplayerVisible","order":2,"path":"objects/OplayerVisible/OplayerVisible.yy",},
+    {"name":"OTextBox","order":8,"path":"objects/OTextBox/OTextBox.yy",},
     {"name":"Owall","order":1,"path":"objects/Owall/Owall.yy",},
     {"name":"Forest2","order":1,"path":"rooms/Forest2/Forest2.yy",},
     {"name":"SforestBG","order":2,"path":"sprites/SforestBG/SforestBG.yy",},
@@ -27,6 +28,7 @@
     {"name":"SrosePatch","order":3,"path":"sprites/SrosePatch/SrosePatch.yy",},
     {"name":"StestBG","order":1,"path":"sprites/StestBG/StestBG.yy",},
     {"name":"Swall","order":2,"path":"sprites/Swall/Swall.yy",},
+    {"name":"SWhiteBox","order":4,"path":"sprites/SWhiteBox/SWhiteBox.yy",},
     {"name":"TtilesRandom","order":1,"path":"tilesets/TtilesRandom/TtilesRandom.yy",},
   ],
 }
