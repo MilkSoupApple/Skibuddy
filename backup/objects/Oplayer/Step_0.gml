@@ -92,7 +92,12 @@ if (mouse_check_button_pressed(mb_left)) && (atkcooldown < 1) {
     
     lunge_timer = lunge_duration;
 
-    with (instance_create_layer(x, y+25, "Instances", Oattacks)) {
+var attack_distance = 50;
+
+var attack_x = x + lengthdir_x(attack_distance, lunge_dir);
+var attack_y = y + lengthdir_y(attack_distance, lunge_dir);
+
+with (instance_create_layer(attack_x, attack_y, "Instances", Oattacks)) {
         sprite_index = Sslash;
         image_xscale = 2;
         image_yscale = 2;
