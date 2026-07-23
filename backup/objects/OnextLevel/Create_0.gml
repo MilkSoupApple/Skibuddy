@@ -5,4 +5,4 @@ canTalk = true
 tBoi = undefined
 lineCur = 0
 
-monkVar = false
+monkVar = false 

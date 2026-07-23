@@ -191,7 +191,7 @@ else if (bowscene == false) {
 		if (x < 763) { act1 = false; act2 = true; }
 		hsp = -5.5;
 	}
-	else if (act2 == true) and canTalk == true {
+		else if (act2 == true) and canTalk == true {
 		
 		hsp = 0
 		
