@@ -1,3 +1,6 @@
+pCamX = camera_get_view_x(roomCam)
+pCamY = camera_get_view_y(roomCam)
+
 //chars
 yP = pCamY+(pCamH*0.5)
 if char1Sp != undefined {
