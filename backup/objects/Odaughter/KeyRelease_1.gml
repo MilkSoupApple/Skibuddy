@@ -7,6 +7,9 @@ if canTalk == false and tBoi != undefined {
 	}
 	
 	if lineCur == 5 {
+		
+		//run code
+		
 		instance_destroy(tBoi)
 		tBoi = undefined
 		lineCur += 1
@@ -19,6 +22,7 @@ if canTalk == false and tBoi != undefined {
 	
 	if lineCur == 3 {
 		tBoi.std = ""
+		other.tBoi = self
 		tBoi.stdG = "Well, I think I like destinatio- ...!"
 		lineCur += 2
 	}
@@ -30,6 +34,7 @@ if canTalk == false and tBoi != undefined {
 	
 	if lineCur == 1 {
 		tBoi.std = ""
+		other.tBoi = Splayer
 		tBoi.stdG = "Just on a walk, little one. The destination isn't always the point of the journey, you know."
 		lineCur += 1
 	}
