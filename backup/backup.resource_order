@@ -40,6 +40,7 @@
     {"name":"ShitBox","order":1,"path":"sprites/ShitBox/ShitBox.yy",},
     {"name":"SnextLevel","order":3,"path":"sprites/SnextLevel/SnextLevel.yy",},
     {"name":"SrandomTileSet","order":1,"path":"sprites/SrandomTileSet/SrandomTileSet.yy",},
+    {"name":"SroseMage","order":2,"path":"sprites/SroseMage/SroseMage.yy",},
     {"name":"SrosePatch","order":3,"path":"sprites/SrosePatch/SrosePatch.yy",},
     {"name":"StestBG","order":1,"path":"sprites/StestBG/StestBG.yy",},
     {"name":"Swall","order":2,"path":"sprites/Swall/Swall.yy",},
