@@ -50,6 +50,7 @@
     {"id":{"name":"Forest1","path":"rooms/Forest1/Forest1.yy",},},
     {"id":{"name":"Forest2","path":"rooms/Forest2/Forest2.yy",},},
     {"id":{"name":"scr_screenshake","path":"scripts/scr_screenshake/scr_screenshake.yy",},},
+    {"id":{"name":"Sbow","path":"sprites/Sbow/Sbow.yy",},},
     {"id":{"name":"Sdaughter","path":"sprites/Sdaughter/Sdaughter.yy",},},
     {"id":{"name":"SflowerBG","path":"sprites/SflowerBG/SflowerBG.yy",},},
     {"id":{"name":"SforestBG","path":"sprites/SforestBG/SforestBG.yy",},},

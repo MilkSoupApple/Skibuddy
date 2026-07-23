@@ -26,6 +26,7 @@
     {"name":"Owall","order":1,"path":"objects/Owall/Owall.yy",},
     {"name":"FlowerRealm1","order":2,"path":"rooms/FlowerRealm1/FlowerRealm1.yy",},
     {"name":"Forest2","order":1,"path":"rooms/Forest2/Forest2.yy",},
+    {"name":"Sbow","order":3,"path":"sprites/Sbow/Sbow.yy",},
     {"name":"Sdaughter","order":2,"path":"sprites/Sdaughter/Sdaughter.yy",},
     {"name":"SflowerBG","order":4,"path":"sprites/SflowerBG/SflowerBG.yy",},
     {"name":"SforestBG","order":2,"path":"sprites/SforestBG/SforestBG.yy",},
