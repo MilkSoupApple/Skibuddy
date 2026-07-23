@@ -10,4 +10,8 @@ image_yscale = imagScaly
 
 std = ""
 stdG = "gurt gurt giioahsdindkifuhdsfpjofjii jdfsihf iauhfiuhiwd iuhdsfisad9fiujs"
+char1Sp = Splayer
+char1Al = 1
+char2Sp = undefined
+char2Al = 1
 depth = -99999999
