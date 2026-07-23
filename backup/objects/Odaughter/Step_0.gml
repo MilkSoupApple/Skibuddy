@@ -8,6 +8,8 @@ if (x < room_width*0.55) and canTalk == true {
 		std = ""
 		stdG = "skibuddy goon"
 		other.tBoi = self
+		char1Sp = Sdaughter
+		char1Fr = 0
 	}
 	
 }
