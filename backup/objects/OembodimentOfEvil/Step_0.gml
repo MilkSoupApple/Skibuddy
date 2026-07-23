@@ -1,13 +1,13 @@
 
-if (canTalk == true) {
+if (canTalk == true) and (giggitygoon == true) {
 	hsp = 0;
 	canTalk =  false
 	with instance_create_layer(-9999,-9999,"Instances",OTextBox) {
 		std = ""
 		stdG = "GREETINGS, PARTICIPANT! DO YOU KNOW WHERE YOU ARE RIGHT NOW?"
-		other.tBoi = self
-		char1Sp = Sdaughter
-		char1Fr = 0
+		other.tBoi = self;
+		char1Sp = SembodimentOfEvil;
+		char1Fr = 0;
 	}
 	
 }

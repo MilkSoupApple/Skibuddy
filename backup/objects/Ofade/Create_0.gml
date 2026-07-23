@@ -6,6 +6,7 @@ global.targety = 416;
 global.daughterspoke = false;
 
 global.wheressally = false;
+global.firstE = false;
 
 global.bowscene = false;
 longtime = false;

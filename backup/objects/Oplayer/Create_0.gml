@@ -14,6 +14,11 @@ if (room == FlowerRealm1) and (global.wheressally == false) {
 		alarm[11] = fps*1
 }
 
+if (room == FlowerRealm2) and (global.firstE == false) {
+	firstE = false;
+}
+else firstE = true;
+
 act1 = true;
 act2 = false;
 act3 = false;

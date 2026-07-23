@@ -15,7 +15,7 @@ if canTalk == false and tBoi != undefined {
 		tBoi.std = ""
 		tBoi.char1Al = 1
 		tBoi.char2Al = 0.6
-		tBoi.stdG = "Well, I don't really like journ- ..!"
+		tBoi.stdG = "YOU HAVE ENTERED THE REALM OF FLOWERS, AND I AM THE EMBODIMENT OF EVERYTHING EVIL IN THE UNIVERSE! BUT THAT DOESN'T HELP YOU MUCH DOES IT?"
 		lineCur += 1
 	}
 	
@@ -23,7 +23,7 @@ if canTalk == false and tBoi != undefined {
 		tBoi.std = ""
 		tBoi.char2Sp = Splayer
 		tBoi.char1Al = 0.6
-		tBoi.stdG = "Just on a walk, little one. The destination isn't always the point of the journey, you know."
+		tBoi.stdG = "No, actually, I have no idea where I am. Where's my daughter? Who are you?"
 		lineCur += 1
 	}
 	}

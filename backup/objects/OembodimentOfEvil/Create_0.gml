@@ -7,3 +7,5 @@ canTalk = true
 lineCur = 0
 tBoi = undefined
 walk_time = 0;
+
+giggitygoon = false;
