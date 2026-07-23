@@ -9,6 +9,10 @@ vsp = 0;
 spedH = 0;
 spedV = 0;
 
+hits = 0;
+hitsT = 60;
+hitswas = 0;
+
 slowit = false;
 
 slashedup = true;
