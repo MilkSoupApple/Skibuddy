@@ -8,7 +8,7 @@ if canTalk == false and tBoi != undefined {
 	
 	if lineCur == 5 {
 		
-		//run code
+		runaway1 = true;
 		
 		instance_destroy(tBoi)
 		tBoi = undefined
