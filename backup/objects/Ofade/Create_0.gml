@@ -5,6 +5,8 @@ global.targetx = 1504;
 global.targety = 416;
 global.daughterspoke = false;
 
+global.wheressally = false;
+
 global.bowscene = false;
 longtime = false;
 
