@@ -9,3 +9,5 @@ image_xscale = imagScalx
 image_yscale = imagScaly
 
 std = ""
+stdG = ""
+depth = -99999999
