@@ -199,7 +199,7 @@ else if (bowscene == false) {
 	dial = 1
 	with instance_create_layer(-9999,-9999,"Instances",OTextBox) {
 		std = ""
-		stdG = "son"
+		stdG = "Sally's bow!"
 		other.tBoi = self
 		char1Sp = Splayer
 		char1Fr = 0
@@ -217,7 +217,7 @@ else if (bowscene == false) {
 		lineCur = 0
 		with instance_create_layer(-9999,-9999,"Instances",OTextBox) {
 			std = ""
-			stdG = "onwiuefniu"
+			stdG = "Sally, where are you? Sally... Ugh, I'm geting... Woozy..."
 			other.tBoi = self
 			char1Sp = Splayer
 			char1Fr = 0
@@ -227,6 +227,8 @@ else if (bowscene == false) {
 	}
 	else if (act5 == true) {
 		Ofade.leaving = true;
+		Ofade.longtime = true;
+		act5 = false;
 		global.target = FlowerRealm1;
 		global.targetx = 384;
 		global.targety = 448;

@@ -14,7 +14,7 @@ if canTalk == false and tBoi != undefined and dial == 1 {
 	
 	if lineCur == 0 {
 		tBoi.std = ""
-		tBoi.stdG = "Freaky deaky"
+		tBoi.stdG = "Sally? Where are you?"
 		lineCur += 1
 	}
 	}

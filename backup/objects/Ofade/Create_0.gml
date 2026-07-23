@@ -6,6 +6,7 @@ global.targety = 416;
 global.daughterspoke = false;
 
 global.bowscene = false;
+longtime = false;
 
 entering = true;
 leaving = false;

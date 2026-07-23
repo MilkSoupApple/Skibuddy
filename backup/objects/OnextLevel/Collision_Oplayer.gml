@@ -3,6 +3,9 @@ if (target == "talk1") {
 	canTalk =  false
 	with instance_create_layer(-9999,-9999,"Instances",OTextBox) {
 		std = ""
+		Oplayer.hsp = 0;
+		Oplayer.vsp = 0;
+		Oplayer.hsp -= 2;
 		stdG = "I can't leave yet..."
 		other.tBoi = self
 		char1Sp = Splayer
