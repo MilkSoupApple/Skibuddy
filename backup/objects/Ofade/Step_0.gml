@@ -5,6 +5,6 @@ else if (entering == true) {
 
 if (leaving == true) and (apa < 1) apa += 0.05;
 else if (leaving == true) {
-	leaving == false;
+	leaving = false;
 	room_goto(global.target);
 }
