@@ -15,7 +15,7 @@ if canTalk == false and tBoi != undefined {
 		tBoi.std = ""
 		tBoi.char1Al = 1
 		tBoi.char2Al = 0.6
-		tBoi.stdG = "Well, I think I like destinatio- ...!"
+		tBoi.stdG = "Well, I don't really like journ- ..!"
 		lineCur += 1
 	}
 	
