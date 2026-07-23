@@ -4,6 +4,7 @@ sprite_index = Splayer;
 image_index = 0;
 image_speed = 0;
 
+
 hsp = 0;
 vsp = 0;
 spedH = 0;
