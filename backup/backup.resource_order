@@ -1,0 +1,28 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Objects","order":1,"path":"folders/Objects.yy",},
+    {"name":"GUIStuff","order":2,"path":"folders/Objects/GUIStuff.yy",},
+    {"name":"PlayerStuff","order":1,"path":"folders/Objects/PlayerStuff.yy",},
+    {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Shaders","order":7,"path":"folders/Shaders.yy",},
+    {"name":"Sounds","order":6,"path":"folders/Sounds.yy",},
+    {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
+    {"name":"Attacks","order":2,"path":"folders/Sprites/Attacks.yy",},
+    {"name":"Environment","order":4,"path":"folders/Sprites/Environment.yy",},
+    {"name":"PlayerStuff","order":3,"path":"folders/Sprites/PlayerStuff.yy",},
+    {"name":"TestStuff","order":1,"path":"folders/Sprites/TestStuff.yy",},
+    {"name":"Tilesets","order":5,"path":"folders/Tilesets.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Oattacks","order":1,"path":"objects/Oattacks/Oattacks.yy",},
+    {"name":"OplayerVisible","order":2,"path":"objects/OplayerVisible/OplayerVisible.yy",},
+    {"name":"Owall","order":1,"path":"objects/Owall/Owall.yy",},
+    {"name":"SforestBG","order":2,"path":"sprites/SforestBG/SforestBG.yy",},
+    {"name":"ShitBox","order":1,"path":"sprites/ShitBox/ShitBox.yy",},
+    {"name":"SrandomTileSet","order":1,"path":"sprites/SrandomTileSet/SrandomTileSet.yy",},
+    {"name":"StestBG","order":1,"path":"sprites/StestBG/StestBG.yy",},
+    {"name":"Swall","order":2,"path":"sprites/Swall/Swall.yy",},
+    {"name":"TtilesRandom","order":1,"path":"tilesets/TtilesRandom/TtilesRandom.yy",},
+  ],
+}
