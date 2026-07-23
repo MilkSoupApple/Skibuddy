@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"GUIStuff","folderPath":"folders/Objects/GUIStuff.yy","name":"GUIStuff","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"PlayerStuff","folderPath":"folders/Objects/PlayerStuff.yy","name":"PlayerStuff","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -33,6 +34,7 @@
   },
   "name":"backup",
   "resources":[
+    {"id":{"name":"FTBox","path":"fonts/FTBox/FTBox.yy",},},
     {"id":{"name":"Oattacks","path":"objects/Oattacks/Oattacks.yy",},},
     {"id":{"name":"Ocamera","path":"objects/Ocamera/Ocamera.yy",},},
     {"id":{"name":"OnextLevel","path":"objects/OnextLevel/OnextLevel.yy",},},
