@@ -13,3 +13,5 @@ longtime = false;
 
 entering = true;
 leaving = false;
+
+global.sword = false

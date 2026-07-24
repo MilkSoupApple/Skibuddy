@@ -9,6 +9,7 @@ if canTalk == false and tBoi != undefined {
 		instance_create_layer(-9999,-9999,"Instances",Oclick)
 		tBoi = undefined
 		lineCur += 1
+		global.sword = true
 		effect_create_depth(depth,ef_explosion,x,y,3,c_red);
 		instance_destroy();
 	}

@@ -86,6 +86,8 @@ else {
 
 
 
+
+if global.sword == true {
 // Attack
 if (mouse_check_button_pressed(mb_left)) && (atkcooldown < 1) {
     scr_screenshake(5);
@@ -122,6 +124,7 @@ with (instance_create_layer(attack_x, attack_y, "Instances", Oattacks)) {
         }
     }
 }
+}
 
 if (lunge_timer > 0) and (hits != 3) {
    if (!place_meeting(x+lengthdir_x(lunge_speed, lunge_dir),y,Owall)) x += lengthdir_x(lunge_speed, lunge_dir);
@@ -155,6 +158,7 @@ if (hits == hitswas) {
 hitswas = hits;
 
 }
+
 else if (walk1 == true) {
 	hsp = -3;
 	var is_moving = (abs(hsp) > 0.1 || abs(vsp) > 0.1);
