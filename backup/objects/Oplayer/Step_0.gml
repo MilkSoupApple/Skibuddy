@@ -1,7 +1,7 @@
 if (instance_exists(Odaughter)) { walk1 = Odaughter.walk1; run1 = Odaughter.runaway1 }
 else { walk1 = false; run1 = false; }
 
-if (Ofade.leaving == false) and (Ofade.entering == false) and (walk1 == false) and (run1 == false) and (not instance_exists(OTextBox)) and (bowscene == true) and (firstE == true) {
+if (Ofade.leaving == false) and (Ofade.entering == false) and (walk1 == false) and (run1 == false) and (not instance_exists(OTextBox)) and (bowscene == true) and (bunsnut == false) and (firstE == true) {
 // Movement
 var moveV = 0;
 var moveH = 0;
@@ -293,4 +293,35 @@ else {
     image_anglee = walk_angle;
 
 x += hsp;
+}
+else if (bunsnut == true) {
+	if (y > 250) bunsnut = false;
+	else vsp = 5;
+	
+	var is_moving = (abs(hsp) > 0.1 || abs(vsp) > 0.1);
+
+// Walking animation
+
+var walk_angle;
+
+if (is_moving) {
+    walk_time += 0.3;
+
+    // Body bob
+    image_yscalee = 1 + sin(walk_time * 2) * 0.05;
+
+    // Walking tilt
+    walk_angle = sin(walk_time) * 7;
+}
+else {
+    image_yscalee = lerp(image_yscalee, 1, 0.2);
+
+    walk_angle = 0;
+	
+}
+
+    // Normal walking rotation
+    image_anglee = walk_angle;
+
+y += vsp;
 }

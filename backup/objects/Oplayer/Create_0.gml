@@ -19,6 +19,11 @@ if (room == FlowerRealm2) and (global.firstE == false) {
 }
 else firstE = true;
 
+if (room == FlowerRealmMAIN) {
+	bunsnut = true;
+}
+else bunsnut = false;
+
 act1 = true;
 act2 = false;
 act3 = false;
