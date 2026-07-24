@@ -69,7 +69,7 @@ if canTalk == false and tBoi != undefined {
 		tBoi.std = ""
 		tBoi.char1Al = 1
 		tBoi.char2Al = 0.6
-		tBoi.stdG = "NOW, YOU MUST COMPETE IN THE TRIAL OF THE ROSES! IF YOU REACH THE END, YOU WILL BE GRANTED 1 WISH, and FREEDOM!"
+		tBoi.stdG = "NOW, YOU MUST COMPETE IN THE TRIAL OF THE ROSES! IF YOU REACH THE END, YOU WILL BE GRANTED 1 WISH, AND FREEDOM!"
 		lineCur += 1
 	}
 	
