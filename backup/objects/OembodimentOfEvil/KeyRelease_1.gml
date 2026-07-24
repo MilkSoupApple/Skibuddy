@@ -6,6 +6,7 @@ if canTalk == false and tBoi != undefined {
 		
 		runaway1 = true;
 		instance_destroy(tBoi)
+		instance_create_layer(-9999,-9999,"Instances",Oclick)
 		tBoi = undefined
 		lineCur += 1
 		effect_create_depth(depth,ef_explosion,x,y,3,c_red);
