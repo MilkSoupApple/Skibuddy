@@ -6,6 +6,7 @@ if canTalk == false and tBoi != undefined {
 		
 		runaway1 = true;
 		instance_destroy(tBoi)
+		instance_create_layer(-9999,-9999,"Instances",Oclick)
 		tBoi = undefined
 		lineCur += 1
 		effect_create_depth(depth,ef_explosion,x,y,3,c_red);
@@ -69,7 +70,7 @@ if canTalk == false and tBoi != undefined {
 		tBoi.std = ""
 		tBoi.char1Al = 1
 		tBoi.char2Al = 0.6
-		tBoi.stdG = "NOW, YOU MUST COMPETE IN THE TRIAL OF THE ROSES! IF YOU REACH THE END, YOU WILL BE GRANTED 1 WISH, and FREEDOM!"
+		tBoi.stdG = "NOW, YOU MUST COMPETE IN THE TRIAL OF THE ROSES! IF YOU REACH THE END, YOU WILL BE GRANTED 1 WISH, AND FREEDOM!"
 		lineCur += 1
 	}
 	
