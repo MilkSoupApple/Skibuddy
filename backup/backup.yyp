@@ -67,6 +67,7 @@
     {"id":{"name":"Splayer","path":"sprites/Splayer/Splayer.yy",},},
     {"id":{"name":"SrandomTileSet","path":"sprites/SrandomTileSet/SrandomTileSet.yy",},},
     {"id":{"name":"SroseGoblin","path":"sprites/SroseGoblin/SroseGoblin.yy",},},
+    {"id":{"name":"SroseMage","path":"sprites/SroseMage/SroseMage.yy",},},
     {"id":{"name":"SrosePatch","path":"sprites/SrosePatch/SrosePatch.yy",},},
     {"id":{"name":"Sslash","path":"sprites/Sslash/Sslash.yy",},},
     {"id":{"name":"StestBG","path":"sprites/StestBG/StestBG.yy",},},
