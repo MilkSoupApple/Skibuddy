@@ -85,8 +85,6 @@ else {
 }
 
 
-
-
 if global.sword == true {
 // Attack
 if (mouse_check_button_pressed(mb_left)) && (atkcooldown < 1) {
@@ -158,7 +156,6 @@ if (hits == hitswas) {
 hitswas = hits;
 
 }
-
 else if (walk1 == true) {
 	hsp = -3;
 	var is_moving = (abs(hsp) > 0.1 || abs(vsp) > 0.1);
